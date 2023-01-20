@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "977868720832",
+    "project_id": "secondrn-4e332",
+    "storage_bucket": "secondrn-4e332.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977868720832:android:4174458d49c4643ba13b25",
+        "android_client_info": {
+          "package_name": "com.secondrn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977868720832-5fcsdri3ob8t1v03a23ejaknqorjjnp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApwUI8xH8w3SF4vRg0RnZ-LBC2u_U5A8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977868720832-5fcsdri3ob8t1v03a23ejaknqorjjnp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

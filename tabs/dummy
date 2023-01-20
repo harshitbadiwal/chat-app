@@ -1,0 +1,153 @@
+// import {
+//   View,
+//   Text,
+//   StyleSheet,
+//   TextInput,
+//   TouchableOpacity,
+//   Button,
+//   Alert,
+// } from 'react-native';
+// import React, {useState} from 'react';
+// // import CheckBox from 'react-native-check-box'
+// // import CheckBox from 'react-native-check-box'
+// import CheckBox from '@react-native-community/checkbox';
+
+// const Screens = ({navigation}) => {
+//   const [agree, setagree] = useState(false);
+//   const [name, setname] = useState('');
+//   //   console.log(name)
+//   const [password, setpassword] = useState('');
+
+//   const submit = () => {
+//     // return Alert.alert(name,password)
+//     if (name === 'harshit' && password === '123456') {
+//       Alert.alert('Thank you');
+//       navigation.navigate('home');
+//     } else {
+//       Alert.alert(`name and password not corect`);
+//     }
+//   };
+
+//   return (
+//     <>
+//       <View>
+//         <View style={styles.mainContainer}>
+//           <Text style={styles.mainHeader}>Login Form</Text>
+//           <Text style={styles.discription}>
+//             You can reach us anytime via filling this form 👍
+//           </Text>
+//           <View style={styles.inputContainer}>
+//             <Text style={styles.labels}>Enter your name</Text>
+//             <TextInput
+//               style={styles.inputStyle}
+//               autoCapitalize="none"
+//               autoCorrect={false}
+//               value={name}
+//               onChangeText={e => setname(e)}
+//             />
+//           </View>
+//           <View style={styles.inputContainer}>
+//             <Text style={styles.labels}>Enter your password</Text>
+//             <TextInput
+//               style={styles.inputStyle}
+//               autoCapitalize="none"
+//               autoCorrect={false}
+//               secureTextEntry={true}
+//               value={password}
+//               onChangeText={e => setpassword(e)}
+//             />
+//           </View>
+
+//           <View style={styles.condition}>
+//             <CheckBox
+//               value={agree}
+//               onValueChange={() => setagree(!agree)}
+//               color={agree ? '#4630EB' : undefined}
+//             />
+
+//             <Text style={styles.discription}>
+//               I have read and agred with the t&c
+//             </Text>
+//           </View>
+
+//           <TouchableOpacity
+//             style={[
+//               styles.buttonstyle,
+//               {
+//                 backgroundColor: agree ? '#4630EB' : 'grey',
+//               },
+//             ]}
+//             disabled={!agree}
+//             onPress={() => submit()}>
+//             <Text>Login</Text>
+//           </TouchableOpacity>
+//         </View>
+//       </View>
+//     </>
+//   );
+// };
+// const styles = StyleSheet.create({
+//   mainContainer: {
+//     height: '100%',
+//     paddingHorizontal: 30,
+//     paddingTop: 30,
+//     // backgroundColor:"#fff"
+//   },
+//   mainHeader: {
+//     fontSize: 25,
+//     color: '#344055',
+//     fontWeight: '500',
+//     paddingTop: 20,
+//     paddingBottom: 15,
+//   },
+//   discription: {
+//     fontSize: 15,
+//     color: '#7d7d7d',
+//     paddingBottom: 15,
+//     paddingTop: 15,
+//     fontFamily: 'bold',
+//   },
+//   inputContainer: {
+//     marginTop: 15,
+//   },
+//   labels: {
+//     fontSize: 18,
+//     color: '#7d7d7d',
+//     marginTop: 10,
+//     marginBottom: 10,
+//     lineHeight: 25,
+//   },
+//   inputStyle: {
+//     borderWidth: 1,
+//     borderColor: 'rgba(0,0,0,0.3',
+//     paddingHorizontal: 10,
+//     paddingVertical: 5,
+//     borderRadius: 5,
+//     fontSize: 18,
+//   },
+//   condition: {
+//     display: 'flex',
+//     marginTop: 10,
+//     flexDirection: 'row',
+//     alignItems: 'center',
+//     paddingTop: 20,
+//   },
+//   btn: {
+//     display: 'flex',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//     Color: 'blue',
+//     padding: 15,
+//   },
+//   buttonstyle: {
+//     fontSize: 15,
+//     backgroundColor: '#7d7d7d',
+//     padding: 15,
+//     display: 'flex',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//     borderRadius: 10,
+//   },
+// });
+
+// export default Screens;
